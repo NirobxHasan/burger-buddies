@@ -17,21 +17,27 @@ p{
 }
 .flex-section{
     display: flex;
-    padding-left: 5%;
+    margin-bottom: 210px;
+    
 }
 .half-width{
-    margin-top: auto;
-    margin-bottom: 150px;
+    /* margin-top: auto; */
+   
     width: 50%;
     display: block;
+    padding-left: 5%;
     
+}
 
+.text-organize{
+    padding-top: 7%;
 }
 .half-width img{
-    width: 80%;
+    width: 75%;
 }
 .linked-button{
     font-size: 20px;
+    font-weight: 600;
     color: white;
     text-decoration: none;
     background-image: linear-gradient(to right,#FFA500, #ff7b00);
@@ -39,4 +45,18 @@ p{
     border-radius: 60px;
     margin-top: 10px;
     display:inline-block; 
+}
+#about-us{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+   
+}
+
+#our-menu{
+    padding: 0 5%;
+}
+.text-center{
+    text-align: center;
 }
