@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #575757;
     margin: 0;
     padding: 0;
@@ -57,8 +57,8 @@ p{
     margin-top: 60px;
 }
 .linked-button{
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     background-image: linear-gradient(to right,#FFA500, #ff7b00);
@@ -85,7 +85,7 @@ p{
     width: 33%;
     margin: 5% 3%;
     border-radius: 35px;
-    box-shadow: 10px 10px 35px gray;
+    box-shadow: 4px 8px 50px gray;
     padding: 1%;
     
 }
@@ -107,12 +107,15 @@ p{
 .contact-us{
     margin-left: 30%;
     margin-right: 30%;
-    margin-bottom: 10%;
+    margin-bottom: 100px;
     padding: 5%;
     border-left: 60px solid orange;
     box-shadow: 10px 10px 30px rgb(100, 90, 78);
     border-radius: 20px;
    
+}
+.contact-form{
+    margin:5%
 }
 .contact-form label{
     display: block;
@@ -120,7 +123,8 @@ p{
     margin: 2%;
 }
 .submit-button{
-    padding-left: 60%;
+    float: right;
+    
 }
 .contact-form input{
     width: 100%;
