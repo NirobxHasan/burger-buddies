@@ -9,9 +9,32 @@ h1{
     font-weight: 600;
 }
 p{
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
+
+.header{
+    background-color: orange;
+    padding-top: 5px;
+
+    width: 100%;
+    position: fixed;
+    
+} 
+.container ul li{
+    list-style: none;
+    display: inline;
+    margin: 2%;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+
+}
+
+
 .yellow-color{
     color: #FF8C00;
 }
@@ -34,6 +57,7 @@ p{
 }
 .half-width img{
     width: 75%;
+    margin-top: 60px;
 }
 .linked-button{
     font-size: 20px;
@@ -51,6 +75,7 @@ p{
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: cover;
+    padding-right: 10%;
    
 }
 
@@ -59,4 +84,17 @@ p{
 }
 .text-center{
     text-align: center;
+}
+.one-third-width{
+    width: 33%;
+    margin: 5% 3%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px gray;
+    padding: 2%;
+    
+}
+.item-image{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
