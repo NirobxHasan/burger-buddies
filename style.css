@@ -43,9 +43,7 @@ p{
     margin-bottom: 210px;
     
 }
-.half-width{
-    /* margin-top: auto; */
-   
+.half-width{  
     width: 50%;
     display: block;
     padding-left: 5%;
@@ -76,7 +74,6 @@ p{
     background-position: fixed;
     background-size: cover;
     padding-right: 10%;
-   
 }
 
 #our-menu{
@@ -88,17 +85,26 @@ p{
 .one-third-width{
     width: 33%;
     margin: 5% 3%;
-    border-radius: 15px;
+    border-radius: 35px;
     box-shadow: 10px 10px 35px gray;
-    padding: 2%;
+    padding: 1%;
     
 }
 .item-image{
     width: 100%;
-    border-radius: 15px;
-    margin-bottom: 10px;
+    border-radius: 35px;
+    margin-bottom: 20px;
 }
 
+.social-activities{
+    margin:0 10% ;
+    border-radius: 20px;
+    box-shadow: 6px 8px 40px gray;
+}
+.partition div{
+    margin: 2% 10%;
+    
+}
 .contact-us{
     margin-left: 30%;
     margin-right: 30%;
@@ -126,7 +132,6 @@ p{
     width: 100%;
     border: 3px solid orange;
 }
-
 
 
 .footer-section{
